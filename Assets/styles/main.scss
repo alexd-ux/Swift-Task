@@ -1,0 +1,9 @@
+// Import base styles
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/reset';
+@import 'base/global';
+
+// Import component styles
+@import 'components/header';
+// Add other components as you create them

@@ -1,0 +1,41 @@
+.header {
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem;
+  
+    .container {
+      @include flex-center;
+      justify-content: space-between;
+  
+      .logo {
+        width: 100px;
+      }
+  
+      .nav ul {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+  
+        li {
+          a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+  
+      .btn {
+        background-color: white;
+        color: $primary-color;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        &:hover {
+          background-color: lighten($primary-color, 10%);
+        }
+      }
+    }
+  }
+  
